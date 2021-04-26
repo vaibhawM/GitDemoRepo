@@ -1,1 +1,3 @@
-this is another sampel file.
+this is another sample file.
+
+Some changes are bieng made to the secodnfile.
