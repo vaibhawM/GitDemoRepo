@@ -1,0 +1,110 @@
+Git
+----------------------------------------
+
+    SVN tool
+            Source code version control tool.
+
+    Workspace
+
+    Git Locala Repo
+
+    Remote Repo             github.com
+
+
+    git cmds
+    --------------------------------------------------------------
+
+        git --version
+        git init
+        git config --list
+        git config --global key value
+
+                    git config --global user.name "Aripaka Vamsy Kiran"
+                    git config --global user.email "a.vamc.it@gmail.com"
+
+        git remote add remoteRepoName remoteRepoUrl
+
+                    git remote add origin https://github.com/avamsykiran/GitDemoRepo.git
+    
+
+        git add files       
+                
+                adds file from workspace to local repo  --------> Staging
+
+        git status      
+
+                give the status of the staging area .
+
+        git commit -m "message"
+
+                is going commit the changes made to the files
+                in staging area. It is mandate to commit the 
+                chagnes before you push the fiels to the remote repo.
+
+        git log
+
+                is going list out all the commits
+
+        git push origin master
+
+        git clone https://github.com/avamsykiran/GitDemoRepo.git
+
+        git restore file
+
+                cancel the recent chagnes made to file until recent commit.
+                it removes all uncommited chagnes.
+
+        git pull
+
+                is nothing but a differetial clone.
+
+        git show commitId
+
+                will display the details of a commit.
+
+        git diff
+
+                will display the changwes made.
+
+
+        Versioning
+        -----------------------------------------------------------------
+
+                git log                         gives the lsit of commits
+                git log --oneline               gives the lsit of commits in brief
+
+                git show commitId               shows the chagnes in a specific commit.
+
+                git checkout commitId           swithc the workspace and local repo a specific commit
+
+                git switch -                    will make the head point tot eh latest commit.
+
+        Branches
+        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+             a branch is a parelell copy of our repo.
+
+             a repo can lie on a single branch at a time.
+
+             we can with between branches freely.
+
+             git branch
+
+             git branch branchName      ---> add a new branch
+
+             git checkout branchName    ---> will swithc from current branch tot he one specified
+
+             git checkout -b newBranchName --> will add and swithc tot heat branch.
+
+             git merge branchName          ---> the current brach will be merged with the specified branch
+
+             git branch -D branchName      ----> Removes a branch
+
+
+             
+
+        
+
+
+
+        
