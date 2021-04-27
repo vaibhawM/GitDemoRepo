@@ -1,2 +1,4 @@
 a file created by developer 1.
 Thsi is a liena dded from master branch.
+
+This is a line of code written by developer 1.
