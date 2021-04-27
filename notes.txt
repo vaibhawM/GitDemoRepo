@@ -64,7 +64,7 @@ Git
 
         git diff
 
-                will display the changwes made.
+                will display the changes made.
 
 
         Versioning
@@ -86,17 +86,17 @@ Git
 
              a repo can lie on a single branch at a time.
 
-             we can with between branches freely.
+             we can switch between branches freely.
 
              git branch
 
              git branch branchName      ---> add a new branch
 
-             git checkout branchName    ---> will swithc from current branch tot he one specified
+             git checkout branchName    ---> will switch from current branch to the one specified
 
-             git checkout -b newBranchName --> will add and swithc tot heat branch.
+             git checkout -b newBranchName --> will add and switch to that branch.
 
-             git merge branchName          ---> the current brach will be merged with the specified branch
+             git merge branchName          ---> the current branch will be merged with the specified branch
 
              git branch -D branchName      ----> Removes a branch
 
