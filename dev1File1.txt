@@ -1,1 +1,2 @@
 a file created by developer 1.
+Thsi is a liena dded from master branch.
